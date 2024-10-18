@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "duplicacy"
 name = "Duplicacy"
-description.en = "A new generation cloud backup tool "
-description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+description.en = "New generation cloud backup tool"
+description.fr = "New generation cloud backup tool"
 
 version = "1.8.0~ynh1"
 
