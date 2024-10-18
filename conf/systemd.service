@@ -1,5 +1,5 @@
 [Unit]
-Description=Duplicacy
+Description=Duplicacy: backup software
 After=network.target
 
 [Service]
@@ -8,7 +8,8 @@ User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/duplicacy
-
+Restart=on-failure
+RestartSec=30
 
 ### Depending on specificities of your service/app, you may need to tweak these
 ### .. but this should be a good baseline
